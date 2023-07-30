@@ -13,12 +13,20 @@ public class App
         int b = 3;
         System.out.println(add(a,b));
         System.out.println(sub(a,b));
+        System.out.println(mod(a,b));
     }
     private static int add (int a, int b){
         return a+b;
     }
 
     private static int sub (int a, int b){
-        return a-b;}
+        return a-b;
+    }
+    private static int mod (int a, int b){
+        return a%b;
+    }
+
+
+
 
 }

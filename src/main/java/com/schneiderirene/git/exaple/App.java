@@ -14,6 +14,7 @@ public class App
         System.out.println(add(a,b));
         System.out.println(sub(a,b));
         System.out.println(mod(a,b));
+        System.out.println(mud(a,b));
     }
     private static int add (int a, int b){
         return a+b;
@@ -24,6 +25,10 @@ public class App
     }
     private static int mod (int a, int b){
         return a%b;
+    }
+
+    private static int mud (int a, int b){
+        return a*b;
     }
 
 
